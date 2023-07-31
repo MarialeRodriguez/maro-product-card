@@ -1,8 +1,8 @@
-# mr-product-card
+# maro-product-card
 
 Este es un paquete de pruebas de despliegue en NPM
 
-### Maria Rodriguez
+### Maria Alejandra Rodriguez Osorio
 
 ## Ejemplo
 ```
