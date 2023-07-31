@@ -24,7 +24,7 @@ export interface ProductContextProps {
     Image:    (Props: ProductImageProps ) => JSX.Element,
   }
 
-  export interface onChangeArgs {
+  export interface OnChangeArgs {
     product: Product;
     count: number;
   }

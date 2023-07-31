@@ -42,12 +42,12 @@ describe('ProductCard', () => {
         expect( tree ).toMatchSnapshot();
 
         act(() => {
-            (tree).children[2].props.onClick();   
+            (tree as any).children[2].props.onClick();   
         })
 
         tree = wrapper.toJSON();
 
-        expect( (tree).children[1].children[0]).toBe('1')
+        expect( (tree as any).children[1].children[0]).toBe('1')
 
     });
 })

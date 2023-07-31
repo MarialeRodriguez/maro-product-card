@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "1.0.0-rc",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -38,8 +38,8 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "mr-product-card",
-  "author": "Maria Rodriguez",
+  "name": "maro-product-card",
+  "author": "Maria Alejandra Rodriguez Osorio",
   "module": "dist/mr-product-card.esm.js",
   "size-limit": [
     {
